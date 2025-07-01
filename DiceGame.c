@@ -18,8 +18,8 @@ int main(void){
 
     printf("Rolling dice...\nDie 1: %d\nDie 2: %d\nTotal value: %d\n", dice1, dice2, sum);
     if(sum >= 8) {
-        printf("You won!\n");
+        printf("%s won!\n", name);
     } else {
-        printf("You lost!\n");
+        printf("%s lost!\n", name);
     }
 }
